@@ -1,6 +1,6 @@
 services:
   app:
-    image: spliit2:latest
+    image: ghcr.io/rcroger/spliit/spliit:main
     ports:
       - 3000:3000
     env_file:
