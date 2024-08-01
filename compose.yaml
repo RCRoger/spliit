@@ -2,7 +2,7 @@ services:
   app:
     image: ghcr.io/rcroger/spliit/spliit:main
     ports:
-      - 3000:3001
+      - 3001:3000
     env_file:
       - container.env
     depends_on:
